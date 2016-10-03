@@ -5,4 +5,5 @@ package com.txc.strategyMode.service;
  */
 public interface CashStrategy {
     double acceptCash(double money);
+    void setInitParams(double... params);
 }
